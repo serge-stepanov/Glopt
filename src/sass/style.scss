@@ -1,0 +1,34 @@
+@import 'base/normilize';
+@import 'base/hidden';
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+
+@import 'blocks/container';
+@import 'blocks/menu';
+@import 'blocks/btn';
+@import 'blocks/official';
+@import 'blocks/opportunities';
+@import 'blocks/benefits';
+@import 'blocks/divider';
+@import 'blocks/agent';
+@import 'blocks/prices';
+@import 'blocks/managers';
+@import 'blocks/principles';
+@import 'blocks/reviews';
+@import 'blocks/slider';

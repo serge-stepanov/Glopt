@@ -1,0 +1,43 @@
+.slider {
+    &__wrapper {
+        position: relative;
+        margin: 0 auto;
+        width: 601px;
+        height: 241px;
+    }
+    &__btn {
+        cursor: pointer;
+    }
+    &__prev {
+        position: absolute;
+        top: 40px;
+        left: 200px;
+    }
+    &__next {
+        position: absolute;
+        top: 40px;
+        right: 200px;
+    }
+    &__slide {
+        width: 114px;
+        height: 114px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    &__header {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22px;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 10px;
+    }
+    &__descr {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 18px;
+        text-align: center;
+        color: #000000;
+    }
+
+}

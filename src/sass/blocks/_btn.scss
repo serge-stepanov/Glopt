@@ -1,0 +1,36 @@
+.btn {
+    width: 160px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: #ec644b;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    &_official {
+        display: block;
+        margin: 0 auto;
+        width: 230px;
+        height: 57px;
+    }
+    &_prices {
+        display: block;
+        margin: 0 auto;
+        &-wrap {
+            bottom: -23px;
+            left: 50%;
+            transform: translateX(-50%);
+            position: absolute;
+            background-color: #fff;
+            width: 170px;
+        }
+        &-form {
+            display: block;
+            margin: 0 auto;
+            padding: 5px;
+            
+        }
+    }
+}

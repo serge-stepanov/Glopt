@@ -1,0 +1,91 @@
+.menu {
+    background-image: url('../img/menu-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 680px;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 100px 600px 350px;
+        column-gap: 45px;
+        grid-auto-rows: auto;
+        padding-top: 20px;
+    }
+    &__logo {
+       &-img {
+           display: block;
+           min-width: 96px;
+           height: 100px;
+           margin: 0 auto;
+       } 
+    }
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        &_item {
+            padding-top: 30px;
+            position: relative;
+            &-link {
+                position: relative;
+                color: #ffffff;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 1;
+                &::after {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    left: 0;
+                    top: 30px;
+                    width: 0;
+                    height: 2px;
+                    background-color: #ec644b;
+                    transition: width 0.3s ease-out;
+                }
+                &:hover, &:active {
+                    color: #ec644b;
+                    &::after {
+                        width: 100%;
+                    }
+                }
+            }
+            &::before {
+                content: "";
+                display: block;
+                position: absolute;
+                top: 28px;
+                right: -20px;
+                width: 1px;
+                height: 25px;
+                border-left: 1px dotted #888992;
+            }
+            &:last-child {
+                &::before {
+                    display: none;
+                }
+            }
+        }
+    }
+    &__form {
+        &-wrapper {
+            padding-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    &__phone {
+        &-descr {
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 300;
+            text-align: right;
+        }
+        &-link {
+            display: block;
+            color: #ffffff;
+            font-size: 19px;
+            font-weight: 700;
+            text-align: right;
+        }
+    }
+
+}

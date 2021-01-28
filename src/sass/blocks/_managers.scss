@@ -1,0 +1,24 @@
+.managers {
+    background-image: url('../../img/managers-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 55px 0 70px 0;
+    &__img {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    &__header {
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 15px;
+    }
+    &__descr {
+        font-size: 19px;
+        font-weight: 300;
+        text-align: center;
+        color: #ffffff;
+    }
+}
