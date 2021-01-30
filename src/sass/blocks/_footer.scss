@@ -1,0 +1,16 @@
+.footer {
+    background-color: #25333c;
+    &__main {
+        display: grid;
+        grid-template-columns: 100px 1fr 350px;
+        gap: 50px;
+        &_logo {
+            &-img {
+                display: block;
+                min-width: 96px;
+                height: 100px;
+                margin: 0 auto;
+            }
+        } 
+    }
+}

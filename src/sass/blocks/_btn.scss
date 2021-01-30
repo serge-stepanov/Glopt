@@ -30,7 +30,13 @@
             display: block;
             margin: 0 auto;
             padding: 5px;
-            
+        }
+    }
+    &_questions {
+        &-form {
+            display: block;
+            margin: 0 auto;
+            width: 180px;
         }
     }
 }
