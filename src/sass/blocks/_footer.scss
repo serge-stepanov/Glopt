@@ -1,4 +1,5 @@
 .footer {
+    padding: 24px 0 35px 0;
     background-color: #25333c;
     &__main {
         display: grid;
@@ -7,10 +8,70 @@
         &_logo {
             &-img {
                 display: block;
-                min-width: 96px;
-                height: 100px;
+                min-width: 68px;
+                height: 71px;
                 margin: 0 auto;
             }
         } 
+        &_header {
+            padding-top: 25px;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 20px;
+            color: #ffffff;
+        }
+        &_phone {
+            &-descr {
+                padding-top: 10px;
+                color: #ffffff;
+                font-size: 14px;
+                font-weight: 300;
+                text-align: right;
+                margin-bottom: 5px;
+            }
+            &-link {
+                display: block;
+                color: #ffffff;
+                font-size: 19px;
+                font-weight: 700;
+                text-align: right;
+            }
+            &-wrapper {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+        }
+    }
+    &_divider {
+        margin: 30px auto;
+        width: 1171px;
+        height: 1px;
+        background-color: #677177;
+    }
+    &__info {
+        display: grid;
+        grid-template-columns: 375px 500px 1fr;
+        &_copy {
+            padding-left: 20px;
+            font-size: 13px;
+            line-height: 17px;
+            font-weight: 300;
+            color: #ffffff;
+        }
+        &_policy {
+            font-size: 13px;
+            line-height: 17px;
+            font-weight: 300;
+            color: #ec644b;
+            text-decoration: underline;
+        }
+        &_made {
+            font-size: 13px;
+            line-height: 17px;
+            font-weight: 300;
+            text-align: right;
+            color: #ffffff;
+        }
     }
 }
