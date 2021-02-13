@@ -20,7 +20,7 @@
         row-gap: 5px;
         &_item {
             display: grid;
-            grid-template-columns: 64px 457px;
+            grid-template-columns: 64px 1fr;
             column-gap: 20px;
         }
         &-wrap {
